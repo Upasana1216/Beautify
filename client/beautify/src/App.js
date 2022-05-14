@@ -5,6 +5,7 @@ import Slider from './components/Slider';
 import CompanyCard from './components/CompanyCard';
 import Footer from './components/Footer';
 import Page from './components/CompanyPage/Page';
+import Dashboad from './components/dashboard/Dashboard';
 function App() {
   return (
     <div >
@@ -14,7 +15,8 @@ function App() {
       <p className='serviceHeading'>Top Brands Are Here</p>
       <CompanyCard></CompanyCard>
       <Footer></Footer> */}
-      <Page></Page>
+      {/* <Page></Page> */}
+      <Dashboad></Dashboad>
     </div>
   );
 }
