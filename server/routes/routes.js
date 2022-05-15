@@ -1,7 +1,10 @@
-import express from "express";
+import express from "express"
 
-const routes = express.Router();
+import { getServices } from "../controller/controllerFunc.js"
 
-routes.get('/',req);
+const route = express.Router()
 
-export default routes;
+route.get('/', getServices)
+// route.post('/', createSeller)
+
+export default route

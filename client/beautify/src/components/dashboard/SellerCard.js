@@ -1,5 +1,5 @@
 import "./SellerCard.css"
-
+import logo from "../../img/logo.png"
 
 function Card() {
     return (
@@ -8,7 +8,7 @@ function Card() {
                 <a href="#">
                     <article class="card">
                         <figure class="card-img">
-                            <img src="https://cdn.pixabay.com/photo/2017/12/10/14/47/pizza-3010062__340.jpg" />
+                            <img src={logo} />
                             <figcaption>
                                Set you Availability
                             </figcaption>
@@ -22,7 +22,7 @@ function Card() {
                 <a href="#">
                     <article class="card">
                         <figure class="card-img">
-                            <img src="https://cdn.pixabay.com/photo/2014/08/14/14/21/shish-kebab-417994__340.jpg" />
+                            <img src={logo} />
                             <figcaption>
                                 Check Reviews from your Customers
                             </figcaption>
@@ -36,7 +36,7 @@ function Card() {
                 <a href="#">
                     <article class="card">
                         <figure class="card-img">
-                            <img src="https://cdn.pixabay.com/photo/2017/01/11/11/33/cake-1971552__340.jpg" />
+                            <img src={logo} />
                             <figcaption>
                                Services
                             </figcaption>
