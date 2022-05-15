@@ -1,0 +1,7 @@
+export const CREATE_SELLER = 'CREATE_SELLER';
+export const CREATE_APPOINTMENT = 'CREATE_APPOINTMENT'
+export const FETCH_ALL = "FETCH_ALL"
+export const FETCH_ALL_NAME = 'FETCH_ALL_NAME';
+export const FETCH_ALL_CITY = 'FETCH_ALL_CITY';
+export const FETCH_ONE = 'FETCH_ONE';
+export const DASHBOARD = 'DASHBOARD';

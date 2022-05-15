@@ -4,6 +4,7 @@ const sellerSchema=mongoose.Schema({
     salonName: String,
     contactNumber:Number,
     address:String,
+    city:String,
     certification:[String],
     salongImages:[String],
     availableSeats:Number,

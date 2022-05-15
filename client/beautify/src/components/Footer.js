@@ -8,19 +8,19 @@ function Footer() {
     return (
         <footer>
             <div class="footer-content">
-                <h3>Foolish Developer</h3>
-                <p>Foolish Developer ---  source code.</p>
+                <h3>Beautify: Let's Salon</h3>
+                <p>Beautify Gives you one stop solution !!</p>
                 <ul class="socials">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Telegram</a></li>
                 </ul>
                 <div class="footer-bottom">
-                    adjkf'aljg;akl
+                Developers: Upasana Singh and Khushi Jain
                 </div>
-                <p>copyright &copy;2021 <a href="#">foolishdeveloper</a>  </p>
+                <p>Follow us here: <a href="#">https://github.com/Upasana1216/Beautify</a>  </p>
                 <div class="footer-menu">
                     <ul class="f-menu">
                         <li><a href="">Home</a></li>

@@ -5,15 +5,14 @@ import {
   faStar,
   faStarHalf
 } from "@fortawesome/free-solid-svg-icons";
-
+import { Img } from "./CardImg";
 function Card() {
-    return (
-        <div>
 
-
+    function imgCall(props) {
+        return (
             <div class="card">
                 <div class="card-header">
-                    <img src={img1} alt="rover" className="salonImg" />
+                    <img src={props.img} alt="rover" className="salonImg" />
                 </div>
                 <div class="card-body">
                     
@@ -25,11 +24,17 @@ function Card() {
                     <FontAwesomeIcon icon={faStar} />
                     <FontAwesomeIcon icon={faStarHalf} />
                     </span>
-                    <p className="company">Hair Spa</p>
-                    <p className="description">Lakme</p>
+                    <p className="company">{props.company}</p>
+                    <p className="description">{props.description}</p>
                     <button class="date"> Book your appointment  </button>
                 </div>
             </div>
+        )
+    }
+
+    return (
+        <div>
+            {Img.map(imgCall)}
         </div>
 
     );

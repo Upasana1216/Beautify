@@ -1,13 +1,13 @@
 
 
 body{
-    background: #fcfcfc;
+    background: #999696;
     font-family: sans-serif;
 }
 
 footer{
    
-    background: #111;
+    background: rgb(0, 0, 0);
    margin-top: 60px;
     width: 100vw;
     color: #fff;

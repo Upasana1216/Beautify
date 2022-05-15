@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import images from "./images";
 const Outer = styled.div`
   padding: 10px 5px;
   width: 250px;
@@ -19,10 +19,12 @@ const Inner = styled.div`
   justify-content: center;
 `;
 
+
 export default props => {
   return (
     <Outer>
-      <Inner>{props.children}</Inner>
+      <Inner>{props.children}
+      </Inner>
     </Outer>
   );
 };

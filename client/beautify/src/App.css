@@ -1,5 +1,8 @@
+
 .App {
   text-align: center;
+  background-color: rgb(57, 57, 57);
+  
 }
 
 .App-logo {
@@ -22,6 +25,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -40,4 +44,5 @@
 .serviceHeading{
   font-size: 40px;
   font-weight: 500;
+  color:white
 }
